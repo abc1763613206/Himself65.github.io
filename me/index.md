@@ -1,6 +1,6 @@
 ---
 layout: me
-title: me
+title: AboutMe
 ---
 #扩散性百万甜面包
 ##OIer,弱鸡一个，正在学习C/C++、C#

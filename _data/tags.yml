@@ -1,8 +1,8 @@
-Article:
-  name: Article
+article:
+  name: article
 
-Essay:
-  name: Essay
+essay:
+  name: essay
 
-Others:
-  name: Others
+others:
+  name: others
