@@ -1,11 +1,11 @@
-tag1:
+AboutMe:
   name: 关于我
 
-tag2:
+Article:
   name: 文章
 
-tag3:
+Essay:
   name: 随笔
 
-tag4:
+Others:
   name: 其他
