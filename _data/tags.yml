@@ -1,11 +1,11 @@
 AboutMe:
-  name: 关于我
+  name: AboutMe
 
 Article:
-  name: 文章
+  name: Article
 
 Essay:
-  name: 随笔
+  name: Essay
 
 Others:
-  name: 其他
+  name: Others
