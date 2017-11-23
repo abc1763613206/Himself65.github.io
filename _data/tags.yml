@@ -1,8 +1,8 @@
 article:
-  name: article
+  name: 文章
 
 essay:
-  name: essay
+  name: 随笔
 
 others:
-  name: others
+  name: 其他
