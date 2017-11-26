@@ -14,6 +14,35 @@
         <script>hljs.initHighlightingOnLoad();</script>
     </head>
     <body>
+
+        	<!--顶部-->
+	<div class="wrapper">
+            <div class="default_title">
+                <img src="/assets/img/mycomputer.png" />
+                {% if page.tag %}
+                    <h1>{{ page.tag }}</h1>
+                {% else %}
+                    <h1>{{ site.name }}</h1>
+                {% endif %}
+            </div>
+
+            {% include topbar.html %}
+            
+            <div class="post_list">
+                    <ul>
+                        {% for test in site.tests %}
+                        <li><a href="{{  post.url }}" title="{{ post.title }}"><img src="/assets/img/file.ico" title="{{ post.title }}" />{{ test.title }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+        
+                <div class="post_total">
+                    <div class="left">{{ site.tests | size }} object(s)</div>
+                    <div class="right">&nbsp;</div>
+                </div>
+        </div>
+        
+        <!--下方内容-->
         <div class="content">
             <div class="post_title">
 				<img src="/assets/img/file.png" />
