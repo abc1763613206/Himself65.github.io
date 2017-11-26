@@ -18,8 +18,21 @@
         </div>
         <div class="content">
             <div class="post_title">
-                {{content}}
+				<img src="/assets/img/file.png" />
+				<h1>{{  page.title  }}</h1>
+				<a href="/"><div class="btn"><span class="fa fa-times"></span></div></a>
+				<div class="btn btn_max"><span class="fa fa-window-maximize"></span></div>
+				<div class="btn"><span class="fa fa-window-minimize"></span></div>
             </div>
+            <ul class="topbar">
+				<li>{{ page.date | date: '%B %-d, %Y' }}</li>
+            </ul>
+            <div class="post_content">
+        		{{ content }}
+				{% if page.title %}
+					{% include donate.html %}
+				{% endif %}
+			</div>
         </div>
         <!--底部-->
         <script src="/assets/js/001.js"></script>
