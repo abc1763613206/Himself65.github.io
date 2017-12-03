@@ -24,7 +24,7 @@
 
             {% include topbar.html %}
             
-            <div class="post_list">
+            <div class="test_list">
                     <ul>
                         {% for test in site.tests %}
                         <li><a href="{{ test.url }}" title="{{ test.title }}"><img src="/assets/img/file.ico" title="{{ test.title }}" />{{ test.title }}</a></li>
@@ -32,7 +32,7 @@
                     </ul>
                 </div>
         
-                <div class="post_total">
+                <div class="test_total">
                     <div class="left">{{ site.tests | size }} object(s)</div>
                     <div class="right">&nbsp;</div>
                 </div>
