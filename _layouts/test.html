@@ -26,7 +26,7 @@
             
             <div class="post_list">
                     <ul>
-                        {% for test in site.tests %}
+                        {% for test in site.posts %}
                         <li><a href="{{ test.url }}" title="{{ test.title }}"><img src="/assets/img/file.ico" title="{{ test.title }}" />{{ test.title }}</a></li>
                         {% endfor %}
                     </ul>
