@@ -687,8 +687,8 @@ pre code {
 .intro-header .page-heading {
   padding: 85px 0 55px;
   color: rgb(0, 0, 0);
-}
-/*changed color*/
+} /*changed color*/
+
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading,
   .intro-header .post-heading,
