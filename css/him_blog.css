@@ -1,0 +1,9 @@
+#clip {
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+}
+
+img {
+    width: 500px;
+}
