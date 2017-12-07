@@ -451,13 +451,14 @@ html * {
   }
   
   .cd-fixed-bg {
-    position: relative;
     min-height: 100%;
     background-size: cover;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center center;
     z-index: 1;
-  }
+   }
+
   .cd-fixed-bg h1, .cd-fixed-bg h2 {
     text-align: center;
     font-size: 30px;
@@ -539,7 +540,7 @@ html * {
 /*
   code by Himself65
 */
-.him-header{
+header{
     text-align: center;
     min-width: 100%;
     padding: 5em 0px;
@@ -548,7 +549,7 @@ html * {
     border-bottom: 1px solid #edeeee;
 }
 
-.him-header h1 {
+header h1 {
     font-size: 70px;
     font-weight: 700;
     margin-top: 26px;
@@ -556,7 +557,7 @@ html * {
     line-height: 1;
 }
 
-.him-header p{
+header p{
     text-align: center;
     color: #252728;
     font-size: 16px;
@@ -566,7 +567,7 @@ html * {
     margin: 1.7em;
 }
 
-.him-header img{
+header img{
     width: 175px;
 }
 
