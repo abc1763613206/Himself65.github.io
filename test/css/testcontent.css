@@ -518,7 +518,7 @@ html * {
   .cd-scrolling-bg {
     min-height: 100%;
    }
-   
+
   .cd-scrolling-bg.cd-color-1 {
     background-color: #3d3536;
     color: #a6989a;
@@ -540,6 +540,7 @@ html * {
       font-weight: 300;
     }
   }
+
 /*
   code by Himself65
 */
