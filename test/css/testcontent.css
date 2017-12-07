@@ -480,16 +480,16 @@ html * {
     max-width: 1170px;
   }
   .cd-fixed-bg.cd-bg-1 {
-    background-image: url("../img/cd-background-1.jpg");
+    background-image: url("/img/404-bg.jpg");
   }
   .cd-fixed-bg.cd-bg-2 {
-    background-image: url("../img/cd-background-2.jpg");
+    background-image: url("/img/404-bg.jpg");
   }
   .cd-fixed-bg.cd-bg-3 {
-    background-image: url("../img/cd-background-3.jpg");
+    background-image: url("/img/404-bg.jpg");
   }
   .cd-fixed-bg.cd-bg-4 {
-    background-image: url("../img/cd-background-4.jpg");
+    background-image: url("/img/404-bg.jpg");
   }
   @media only screen and (min-width: 768px) {
     .cd-fixed-bg h1, .cd-fixed-bg h2 {
@@ -535,7 +535,9 @@ html * {
       font-weight: 300;
     }
   }
-
+/*
+  by Himself65
+*/
 header{
     text-align: center;
     min-width: 100%;
