@@ -479,7 +479,7 @@ html * {
     width: 90%;
     max-width: 1170px;
   }
-  
+
   .cd-fixed-bg.cd-bg-1 {
     background-image: url("/img/404-bg.jpg");
   }
@@ -537,9 +537,9 @@ html * {
     }
   }
 /*
-  by Himself65
+  code by Himself65
 */
-header{
+.him-header{
     text-align: center;
     min-width: 100%;
     padding: 5em 0px;
@@ -548,7 +548,7 @@ header{
     border-bottom: 1px solid #edeeee;
 }
 
-header h1 {
+.him-header h1 {
     font-size: 70px;
     font-weight: 700;
     margin-top: 26px;
@@ -556,7 +556,7 @@ header h1 {
     line-height: 1;
 }
 
-header p{
+.him-header p{
     text-align: center;
     color: #252728;
     font-size: 16px;
@@ -566,7 +566,7 @@ header p{
     margin: 1.7em;
 }
 
-header img{
+.him-header img{
     width: 175px;
 }
 
