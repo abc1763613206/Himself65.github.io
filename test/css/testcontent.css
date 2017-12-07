@@ -21,7 +21,7 @@ html * {
     background-color: white;
   }
   
-  body, html, main {
+  body, html {
     /* important */
     height: 100%;
    }
