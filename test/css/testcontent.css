@@ -507,18 +507,15 @@ html * {
     }
   }
   
-  /* .cd-scrolling-bg {
+  .cd-scrolling-bg {
     position: relative;
     min-height: 100%;
     padding: 4em 0;
     line-height: 1.6;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
     z-index: 2;
-  } */
-  .cd-scrolling-bg {
-    min-height: 100%;
-   }
-
+  }
+  
   .cd-scrolling-bg.cd-color-1 {
     background-color: #3d3536;
     color: #a6989a;
