@@ -546,6 +546,7 @@ header{
     position: relative;
     border-bottom: 1px solid #edeeee;
 }
+
 header h1 {
     font-size: 70px;
     font-weight: 700;
@@ -553,6 +554,7 @@ header h1 {
     margin-bottom: 10px;
     line-height: 1;
 }
+
 header p{
     text-align: center;
     color: #252728;
@@ -562,6 +564,13 @@ header p{
     font-weight: 300;
     margin: 1.7em;
 }
+
 header img{
     width: 175px;
 }
+/*varbar color*/
+.navbar-custom .nav li a,
+.navbar-custom .nav li a:hover,
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-brand:hover {color:#777;}
+.navbar-default .navbar-toggle .icon-bar {background-color:#777;}

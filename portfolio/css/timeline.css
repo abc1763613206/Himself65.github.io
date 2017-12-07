@@ -13,10 +13,6 @@ body, html {
 .main a{
 	color:#0085a1;
 }
-.main a:hover {
-	/*color: #000;*/
-	/*text-decoration: none;*/
-}
 
 .main, .container > header {
 	width: 90%;
