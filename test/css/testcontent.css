@@ -21,10 +21,10 @@ html * {
     background-color: white;
   }
   
-  body, html {
+  body, html, main {
     /* important */
     height: 100%;
-  }
+   }
   
   a {
     color: #b4d7a8;
@@ -568,6 +568,7 @@ header p{
 header img{
     width: 175px;
 }
+
 /*varbar color*/
 .navbar-custom .nav li a,
 .navbar-custom .nav li a:hover,
