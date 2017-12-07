@@ -1,9 +1,30 @@
-/* #clip {
-    width: 400px;
-    height: 300px;
-    overflow: hidden;
-}
-
-img {
-    width: 500px;
-} */
+body, html, main {
+    /* important */
+    height: 100%;
+   }
+    
+   .cd-fixed-bg {
+    min-height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+   }
+   
+   .cd-fixed-bg.cd-bg-1 {
+    background-image: url("/img/404-bg.jpg");
+   }
+   .cd-fixed-bg.cd-bg-2 {
+    background-image: url("/img/404-bg.jpg");
+   }
+   .cd-fixed-bg.cd-bg-3 {
+    background-image: url("/img/404-bg.jpg");
+   }
+   .cd-fixed-bg.cd-bg-4 {
+    background-image: url("/img/404-bg.jpg");
+   }
+    
+   .cd-scrolling-bg {
+    min-height: 100%;
+   }
+   
