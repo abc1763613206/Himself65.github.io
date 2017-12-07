@@ -479,6 +479,7 @@ html * {
     width: 90%;
     max-width: 1170px;
   }
+  
   .cd-fixed-bg.cd-bg-1 {
     background-image: url("/img/404-bg.jpg");
   }
