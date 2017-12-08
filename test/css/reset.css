@@ -12,7 +12,7 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
-figure, figcaption, footer, hgroup, 
+figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -54,7 +54,7 @@ table {
 .navbar-default .navbar-toggle .icon-bar {background-color:#777;}
 
 /*head img*/
-header{
+header {
 	text-align: center;
 	min-width: 100%;
 	padding: 5em 0px;
@@ -80,4 +80,8 @@ header p{
 }
 header img{
 	width: 175px;
+}
+
+@media screen and (max-width: 400px) {
+	
 }
