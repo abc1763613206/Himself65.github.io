@@ -11,7 +11,20 @@ body, html, main {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center center;
-}   
+} 
+.cd-fixed-bg.cd-bg-1 {
+    background-image: url("https://codyhouse.co/demo/alternate-fixed-scroll-background/img/cd-background-1.jpg/img/cd-background-1.jpg");
+}
+.cd-fixed-bg.cd-bg-2 {
+    background-image: url("https://codyhouse.co/demo/alternate-fixed-scroll-background/img/cd-background-2.jpg");
+}
+.cd-fixed-bg.cd-bg-3 {
+    background-image: url("https://codyhouse.co/demo/alternate-fixed-scroll-background/img/cd-background-3.jpg");
+}
+.cd-fixed-bg.cd-bg-4 {
+       background-image: url("https://codyhouse.co/demo/alternate-fixed-scroll-background/img/cd-background-4.jpg");
+}
+      
 /*
   code by Himself65
 */
