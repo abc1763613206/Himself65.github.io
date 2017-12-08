@@ -12,7 +12,7 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+figure, figcaption, footer, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -45,6 +45,14 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/*navbar dark theme*/
+
+.navbar-custom .nav li a,
+.navbar-custom .nav li a:hover,
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-brand:hover {color:#777;}
+.navbar-default .navbar-toggle .icon-bar {background-color:#777;}
+
 /*head img*/
 header{
 	text-align: center;
@@ -73,9 +81,3 @@ header p{
 header img{
 	width: 175px;
 }
-/*navbar dark theme*/
-.navbar-custom .nav li a,
-.navbar-custom .nav li a:hover,
-.navbar-custom .navbar-brand,
-.navbar-custom .navbar-brand:hover {color:#777;}
-.navbar-default .navbar-toggle .icon-bar {background-color:#777;}
