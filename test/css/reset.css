@@ -63,7 +63,7 @@ header {
 	border-bottom: 1px solid #edeeee;
 }
 header h1 {
-    font-size: 65px;
+    font-size: 70px;
     font-weight: 700;
     margin-top: 26px;
     margin-bottom: 10px;
@@ -83,5 +83,15 @@ header img{
 }
 
 @media screen and (max-width: 400px) {
-	
+	.main{
+		padding-bottom: 0px;
+	}
+	html{
+		font-size: 90%;
+	}
+	header p {
+		font-size: 1.05em;
+		letter-spacing: 0px;
+		margin: 1.5em;
+	}
 }
