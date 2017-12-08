@@ -48,7 +48,9 @@ Modules - reusable parts of our design
   display: table;
   clear: both;
 }
-
+.cd-container h1,h2,h3,h4,h5,h6 {
+  
+}
 /* -------------------------------- 
 
 Main components 
