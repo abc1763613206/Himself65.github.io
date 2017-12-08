@@ -2,7 +2,6 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -47,30 +46,9 @@ table {
 	border-spacing: 0;
 }
 
-header{
-	text-align: center;
-	min-width: 100%;
-	padding: 5em 0px;
-	padding-bottom: 10em;
-	position: relative;
-	border-bottom: 1px solid #edeeee;
-}
-header h1 {
-    font-size: 70px;
-    font-weight: 700;
-    margin-top: 26px;
-    margin-bottom: 10px;
-    line-height: 1;
-}
-header p{
-	text-align: center;
-	color: #252728;
-	font-size: 16px;
-	line-height: 1.6em;
-	letter-spacing: 1px;
-	font-weight: 300;
-	margin: 1.7em;
-}
-header img{
-	width: 175px;
-}
+/*navbar dark theme*/
+.navbar-custom .nav li a,
+.navbar-custom .nav li a:hover,
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-brand:hover {color:#777;}
+.navbar-default .navbar-toggle .icon-bar {background-color:#777;}
