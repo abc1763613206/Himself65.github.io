@@ -10,7 +10,8 @@
 
     {{ content }}
 
+    {% if page.title != "about" %}
     {% include footer.html %}
-    
+    {% endif %}
 </body>
 </html>
