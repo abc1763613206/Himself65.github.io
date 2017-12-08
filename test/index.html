@@ -3,6 +3,7 @@ title: Test
 ---
 <!DOCTYPE html>
 <html lang="en">
+    {% include head.html %}
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -11,6 +12,7 @@ title: Test
 		<link rel="stylesheet" type="text/css" href="css/testcontent.css" />
 		<script src="js/modernizr.custom.js"></script>
     </head>
+    
     <style type="test/css">
         .cd-fixed-bg.cd-bg-1{
             background-image: url("/img/404-bg.jpg");
@@ -27,6 +29,7 @@ title: Test
     </style>
 <body>
     <main>
+        {% include nav.html %}
         <header>
             <img width="175" height="175" style="border-radius:50%;" src="/img/avatar-himself65.jpg">
             <h1>Himself65</h1>
