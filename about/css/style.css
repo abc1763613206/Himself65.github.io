@@ -248,6 +248,7 @@ Main components
   background-color: #b4d7a8;
   color: #3d3536;
 }
+
 @media only screen and (min-width: 768px) {
   .cd-scrolling-bg {
     padding: 8em 0;
@@ -256,4 +257,16 @@ Main components
     line-height: 2;
     font-weight: 300;
   }
+}
+
+.cd-nugget-info {
+  display: inline-block;
+  padding: 1em 1.4em 1em;
+  margin-top: 20px;
+  background: #b4d7a8;
+  font-size: 14px;
+  font-size: 0.875rem;
+  border-radius: .25em;
+  color: #3d3536;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.3);
 }
