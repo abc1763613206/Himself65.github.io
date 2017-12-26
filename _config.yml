@@ -5,10 +5,8 @@ header-img: img/home-bg.jpg
 email: himself6565@gmail.com
 description: "C/C++、C#开发 | 普通的高中生 | OI党 "
 keyword: "扩散性百万甜面包, Himself65, Blog"
-url: "http://himself65.com"              # your host, for absolute URL
-baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
-
-
+url: "http://himself65.com"             
+baseurl: ""
 
 # SNS settings
 RSS: false
@@ -33,7 +31,6 @@ anchorjs: true                          # if you want to customize anchor. check
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
 gems: [jekyll-paginate]
-
 
 
 # Markdown settings
@@ -94,5 +91,10 @@ friends: [
     {
         title: "排长的Blog",
         href: "http://paizhang.info/"
+    },
+    
+    {
+        title: "妮妙的Pixiv",
+        href: "https://www.pixiv.net/member_illust.php?id=11619949"
     }
 ]
