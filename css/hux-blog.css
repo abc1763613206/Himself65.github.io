@@ -671,7 +671,7 @@ pre code {
 
 .navbar-custom .navbar-brand {
   font-weight: 800;
-  color: #777;
+  color: white;
   height: 56px;
   line-height: 25px;
 }
@@ -701,7 +701,7 @@ pre code {
     font-size: 20px;
   }
   .navbar-custom .navbar-brand {
-    color: #777;
+    color: white;
     padding: 20px;
     line-height: 20px;
   }
@@ -710,7 +710,7 @@ pre code {
     color: rgba(255, 255, 255, 0.8);
   }
   .navbar-custom .nav li a {
-    color: #777;
+    color: white;
     padding: 20px;
   }
   .navbar-custom .nav li a:hover,
