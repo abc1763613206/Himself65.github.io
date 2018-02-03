@@ -1,3 +1,3 @@
 # 简介
 
-[![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=my-website&style=flat-square)](http://himself65.com)
+[![Website](http://himself65.com/badvg/himself65.com-Website-green.svg)](http://himself65.com)
