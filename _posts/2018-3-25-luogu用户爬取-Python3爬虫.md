@@ -17,7 +17,7 @@ tags:
 
 截止今日12时左右
 
-前100AC率的分别是：
+前100AC的是：
 
 ## 名字	  总提交数   AC数
 
@@ -120,13 +120,13 @@ tags:
 97.	斯德哥尔摩	1.7K	543
 98.	zhouenji	1.8K	541
 99.	zhoudong	1.2K	534
-100.	wine	1.5K	533
+100. wine	1.5K	533
 
 OneDrive链接：
 
 [Link](https://1drv.ms/x/s!AkamOYfLSizOuiKzj3dhipNdZBqN)
 
-代码实现
+## 代码实现
 
 下载最麻烦的不是算法上（就是个遍历uid），而是时间上……
 
@@ -141,5 +141,3 @@ OneDrive链接：
 [项目地址](https://github.com/Himself65/LuoguCrawler)
 
 这个坑差不多花了几十个小时填完，其实大部分时间都是在爬数据（逃
-
-发布于 15:30
