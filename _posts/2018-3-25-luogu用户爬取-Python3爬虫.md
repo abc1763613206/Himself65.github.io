@@ -134,8 +134,6 @@ OneDrive链接：
 
 之后用了多线程，又发现会抢资源，于是又单独开了读取线程和保存线程，经过一番修改才稳定一晚上下载完毕。
 
-基本的原理如下（PPT制作）：
-
 详细可以去看GitHub，写的不算杂乱：
 
 [项目地址](https://github.com/Himself65/LuoguCrawler)
