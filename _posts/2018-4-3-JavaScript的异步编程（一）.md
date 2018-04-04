@@ -7,7 +7,8 @@ author: "Himself65"
 header-img: "img/head_post/2018-4-3-01.jpeg"
 darktheme: true
 tags: 
-    - 随机
+    - 编程
+    - JavaScript
 ---
 # JavaScript异步编程
 
