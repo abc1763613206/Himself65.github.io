@@ -203,17 +203,17 @@ Main components
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   color: white;
 }
-.cd-fixed-bg.cd-bg-1 {
-  background-image: url("/img/404-bg.jpg");
+.cd-fixed-bg.cd-bg-1{
+  background-image: url("../img/001.jpg");
 }
-.cd-fixed-bg.cd-bg-2 {
-  background-image: url("/img/404-bg.jpg");
+.cd-fixed-bg.cd-bg-2{
+  background-image: url("../img/002.jpg");
 }
-.cd-fixed-bg.cd-bg-3 {
-  background-image: url("/img/404-bg.jpg");
+.cd-fixed-bg.cd-bg-3{
+  background-image: url("../img/003.jpg");
 }
-.cd-fixed-bg.cd-bg-4 {
-  background-image: url("/img/404-bg.jpg");
+.cd-fixed-bg.cd-bg-4{
+  background-image: url("../img/004.jpg");
 }
 @media only screen and (min-width: 768px) {
   .cd-fixed-bg h1, .cd-fixed-bg h2 {
