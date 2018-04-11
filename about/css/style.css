@@ -204,6 +204,7 @@ Main components
   color: white;
 }
 .cd-fixed-bg.cd-bg-1{
+<<<<<<< HEAD
   background-image: url("../img/001.jpg");
 }
 .cd-fixed-bg.cd-bg-2{
@@ -214,6 +215,18 @@ Main components
 }
 .cd-fixed-bg.cd-bg-4{
   background-image: url("../img/004.jpg");
+=======
+  background-image: url("/img/001.jpg");
+}
+.cd-fixed-bg.cd-bg-2{
+  background-image: url("/img/002.jpg");
+}
+.cd-fixed-bg.cd-bg-3{
+  background-image: url("/img/003.jpg");
+}
+.cd-fixed-bg.cd-bg-4{
+  background-image: url("/img/004.jpg");
+>>>>>>> b6530be2890fb60783abe6d1c911d0ae62625c3c
 }
 @media only screen and (min-width: 768px) {
   .cd-fixed-bg h1, .cd-fixed-bg h2 {
