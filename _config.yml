@@ -89,10 +89,13 @@ service-worker: true
 # Friends
 friends: [
     {
+        title: "洛谷 | 计算机科学新生态",
+        href: "https://www.luogu.org"
+    },
+    {
         title: "排长的Blog",
         href: "http://paizhang.info/"
     },
-    
     {
         title: "妮妙的Pixiv",
         href: "https://www.pixiv.net/member_illust.php?id=11619949"
