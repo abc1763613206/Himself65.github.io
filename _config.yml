@@ -15,7 +15,12 @@ zhihu_username:     Himself65
 github_username:    Himself65
 twitter_username:   MrSweerBread
 
-
+nav: [
+    {
+        title: 'About',
+        link: 'https://profile.himself65.com'
+    },
+]
 
 
 # Build settings
