@@ -4,7 +4,7 @@ title: "New Surface Pro使用体验"
 subtitle: "Windows下的开发环境"
 date: 2018-8-2 23:00:00
 author: "Himself65"
-header-img: "img/in_post/2018-8-21-05.jpg"
+header-img: "img/in_post/2018-8-21-05.JPG"
 tags: 
     - Windows10
     - Surface Pro
@@ -16,13 +16,13 @@ tags:
 
 ![01](/img\in_post\2018-8-20-01.png)
 
-![02](/img\in_post\2018-8-20-02.jpg)
+![02](/img\in_post\2018-8-20-02.JPG)
 
-![03](/img\in_post\2018-8-20-03.jpg)
+![03](/img\in_post\2018-8-20-03.JPG)
 
-![04](/img\in_post\2018-8-20-04.jpg)
+![04](/img\in_post\2018-8-20-04.JPG)
 
-![05](/img\in_post\2018-8-20-05.jpg)
+![05](/img\in_post\2018-8-20-05.JPG)
 
 前后一共花了约15k，大约13k的主机、1k的键盘，还有其他杂碎的东西
 
