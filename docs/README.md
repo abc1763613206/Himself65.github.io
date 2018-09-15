@@ -9,3 +9,5 @@
 # LICENSE
 
 [MIT LICENSE](../LICENSE)
+
+<b-footer/>
