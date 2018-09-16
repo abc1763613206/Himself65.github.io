@@ -1,8 +1,8 @@
 <template>
   <div class="#app">
-    <b-header/>
-    <b-body />
-    <b-footer></b-footer>
+    <b-header :setting="headerConfig" />
+    <b-body :setting="bodyConfig" />
+    <b-footer :setting="footerConfig" />
   </div>
 </template>
 
@@ -15,6 +15,32 @@ export default {
   name: 'App',
   components: { BHeader, BBody, BFooter },
   computed: {
+    config () {
+      return this.$site
+    },
+    headerConfig () {
+      const config = this.config.themeConfig
+      return {
+        'navItem': config.nav,
+        'title': config.title,
+        'description': config.description
+      }
+    },
+    bodyConfig () {
+      const config = this.config
+      return {
+        'sideNav': config.sideBar
+      }
+    },
+    footerConfig () {
+      const config = this.config.themeConfig
+      return {
+        'content': config.footer.description
+      }
+    }
+  },
+  mounted () {
+    console.log(this.$site)
   }
 }
 </script>

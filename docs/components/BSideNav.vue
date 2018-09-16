@@ -1,8 +1,13 @@
-<template />
+<template>
+  <div />
+</template>
 
 <script>
 export default {
-  name: 'BSideNav'
+  name: 'BSideNav',
+  props: {
+    setting: { type: Object, required: true }
+  }
 }
 </script>
 

@@ -12,9 +12,11 @@ module.exports = {
       { text: 'About', link: '/me/' },
     ],
 
-    // Search Settings
-    search: true,
-    searchMaxSuggestions: 10,
-    lastUpdated: 'Last Updated'
+    sideBar: [
+
+    ],
+    footer: {
+      'description': 'Hello, world'
+    }
   }
 }

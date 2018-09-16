@@ -10,6 +10,7 @@
   },
   "bugs": "https://github.com/Himself65/himself65.github.io/issues",
   "devDependencies": {
+    "@lfe/components": "^0.12.0",
     "babel-eslint": "^8.2.3",
     "eslint": "^5.1.0",
     "eslint-config-standard": "^12.0.0",
@@ -17,9 +18,13 @@
     "eslint-plugin-node": "^6.0.1",
     "eslint-plugin-promise": "^3.7.0",
     "eslint-plugin-standard": "^3.1.0",
-    "eslint-plugin-vue": "^4.7.1"
+    "eslint-plugin-vue": "^4.7.1",
+    "prettier": "^1.14.2",
+    "markdown-palettes": "^0.4.6"
   },
   "scripts": {
+    "lint": "eslint . --ext .js,.vue",
+    "lint-fix": "eslint . --fix --ext .js,.vue",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   }

@@ -1,11 +1,25 @@
-<template />
+<template>
+  <div />
+</template>
 
 <script>
 export default {
-  name: 'BBody'
+  name: 'BBody',
+  props: {
+    setting: { type: Object, required: true }
+  },
+  computed: {
+    classes () {
+      return {
+        'b-body': true
+      }
+    }
+  }
 }
 </script>
 
-<style scoped>
+<style lang="stylus" scoped>
+  .b-body {
 
+  }
 </style>
