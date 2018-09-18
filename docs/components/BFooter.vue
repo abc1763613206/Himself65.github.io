@@ -33,6 +33,12 @@ export default {
 <style lang="stylus" scoped>
   @import "../.vuepress/stylus/site.styl"
 
+  #app-footer
+    @media $display-breakpoints.sm-and-up
+      margin-left $app-side-nav-width
+    @media $display-breakpoints.xs-only
+      margin-left 0
+
   footer
     display flex
     flex-direction column
@@ -45,7 +51,6 @@ export default {
     min-height 7rem
 
     @media $display-breakpoints.xs-only
-      margin-left 0
       width 100%
 
   .container

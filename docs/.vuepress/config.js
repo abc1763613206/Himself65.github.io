@@ -7,14 +7,15 @@ module.exports = {
     repo: 'Himself65/Himself65.github.io',
 
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Article', link: '/article/' },
-      { text: 'About', link: '/me/' },
+      { text: 'Me', link: 'https://github.com/Himself65', img: ''}
     ],
 
     sideBar: [
-
+      { text: 'Home', link: '/', icon: 'fa-home'},
+      { text: 'Article', link: '/article/', icon: 'fa-shit' },
+      { text: 'About', link: '/me/', icon: 'fa-shit'},
     ],
+
     footer: {
       'description': 'Hello, world'
     }

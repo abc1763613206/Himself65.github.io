@@ -1,8 +1,9 @@
 <template>
-  <div class="#app">
-    <b-header :setting="headerConfig" />
-    <b-body :setting="bodyConfig" />
-    <b-footer :setting="footerConfig" />
+  <div id="b-app">
+    <b-header id="app-header" :setting="headerConfig" />
+    <b-side-nav id="app-side-nav" :setting="sideConfig" />
+    <b-body id="app-body" :setting="bodyConfig" />
+    <b-footer id="app-footer" :setting="footerConfig" />
   </div>
 </template>
 
@@ -10,10 +11,11 @@
 import BFooter from "../../components/BFooter";
 import BBody from "../../components/BBody";
 import BHeader from "../../components/BHeader";
+import BSideNav from "../../components/BSideNav";
 
 export default {
   name: 'App',
-  components: { BHeader, BBody, BFooter },
+  components: { BSideNav, BHeader, BBody, BFooter },
   computed: {
     config () {
       return this.$site
@@ -27,15 +29,21 @@ export default {
       }
     },
     bodyConfig () {
-      const config = this.config
+      const config = this.config.themeConfig
       return {
-        'sideNav': config.sideBar
+        'title': 'fuck'
       }
     },
     footerConfig () {
       const config = this.config.themeConfig
       return {
         'content': config.footer.description
+      }
+    },
+    sideConfig () {
+      const config = this.config.themeConfig
+      return {
+        'sideNav': config.sideBar
       }
     }
   },
@@ -46,7 +54,7 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-  #app
+  #b-app
     width 100%
     height 100%
 </style>
@@ -61,11 +69,17 @@ export default {
     "Noto Sans CJK SC", "Noto Sans CJK", "Source Han Sans", "PingFang SC",
     "Microsoft YaHei", sans-serif
     background-color: #efefef
+    height 100%
+    width 100%
 
   body
     display flex
     min-height 100vh
     flex-direction column
+
+  #app
+    width 100%
+    height 100%
 
   .container
     display block
