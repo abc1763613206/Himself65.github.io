@@ -1,5 +1,7 @@
 <template>
-  <div />
+  <div>
+    <Content />
+  </div>
 </template>
 
 <script>
@@ -19,7 +21,12 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-  .b-body {
+  @import "../.vuepress/stylus/site.styl"
 
-  }
+  #app-body
+    @media $display-breakpoints.sm-and-up
+      margin-left $app-side-nav-width
+    @media $display-breakpoints.xs-only
+      margin-left 0
+      background-color #efefef
 </style>

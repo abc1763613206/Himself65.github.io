@@ -11,9 +11,9 @@ module.exports = {
     ],
 
     sideBar: [
-      { text: 'Home', link: '/', icon: 'fa-home'},
-      { text: 'Article', link: '/article/', icon: 'fa-shit' },
-      { text: 'About', link: '/me/', icon: 'fa-shit'},
+      { text: '主页', link: '/', icon: 'fa-home'},
+      { text: '文章', link: '/article/', icon: 'fa-book' },
+      { text: '我', link: '/me/', icon: 'fa-user'},
     ],
 
     footer: {

@@ -54,6 +54,8 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
+  @import "../stylus/site.styl"
+
   #b-app
     width 100%
     height 100%
